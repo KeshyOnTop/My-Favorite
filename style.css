@@ -69,25 +69,65 @@ p {
     font-size: 17px;
     line-height: 1.3;
 }
+
 .menu {
-    list-style:none;
+    list-style: none;
     font-family: 'Squada One', cursive;
-    position:absolute;
-    top:10px;
-    right:30px;
-    z-index:10;
-    cursor:pointer;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
 }
+
 .links {
-    float:left;
-    color:white;
-    padding-top:5px;
-    padding-bottom:5px;
-    padding-left:9px;
-    padding-right:9px;
-    font-size:20px;
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
 .links:hover {
-    background-color:dodgerblue;
+    background-color: dodgerblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    background-color: #DB7093;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+#videos,
+#epic {
+    text-align: center;
+}
+
+#topten {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+ol {
+    list-style-position: inside;
+    padding: 5px;
+    margin: 5px;
+    background-color: dodgerblue;
+}
+
+ol li {
+    margin: 5px;
+    background-color: skyblue;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
 }
