@@ -131,3 +131,33 @@ ol li {
     font-family: 'Fira Sans', sans-serif;
     font-size: 25px;
 }
+#favorites {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+
+#basketball,
+#ds {
+    transition: transform .2s;
+    width: 500px;
+    height: 500px;
+    border: 5px solid slateblue;
+}
+
+#basketball:hover {
+    transform: scale(0.9);
+}
+
+#ds:hover {
+    transform: scale(0.9);
+}
+#tg {
+    width:400px;
+    height:400px;
+}
+#sm {
+    width:400px;
+    height:400px;
+    text-align: center;
+}
